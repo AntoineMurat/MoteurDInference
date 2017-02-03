@@ -1,7 +1,8 @@
 var MoteurDInference = require(__dirname+"/MoteurDInference")
+var TypeNegation = require(__dirname+"/TypeNegation")
 var Fait = require(__dirname+"/Fait")
 
-var moteurDInference = new MoteurDInference()
+var moteurDInference = new MoteurDInference(TypeNegation.ABSENCE)
 
 moteurDInference.ajouterFait(new Fait("choux-fleurs", false))
 moteurDInference.ajouterFait(new Fait("grosse-quantité", false))

@@ -1,8 +1,7 @@
 class BaseDeRegles {
 
-	constructor(regles = [], typeNegation){
+	constructor(regles = []){
 		this.regles = regles
-		this.typeNegation = typeNegation
 	}
 
 	ajouterRegle(regle){
