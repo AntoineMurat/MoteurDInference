@@ -1,5 +1,5 @@
 module.exports = {
 	AUCUNE : 0,
-	ABSCENCE : 1,
+	ABSENCE : 1,
 	ECHEC : 2
 }
